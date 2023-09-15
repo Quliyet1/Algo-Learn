@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width"/>
+<title>Mathlete</title>
+<link href="css/style2.css" rel="stylesheet" type="text/css" >
+<script src="js/jquery-2.1.4.min.js"></script>
+<!--for showing registration-->
+<script>
+$(document).ready(function(){
+	$(".bold a").click(function(){
+		$(".registration").slideToggle()
+		
+		})
+	
+	
+	})</script>
+<!--for hiding-->
+	<script>
+$(document).ready(function(){
+	$(".registration a").click(function(){
+		$(".registration").hide()
+		
+		})
+	
+	
+	})</script>
+
+<script>
+$(document).ready(function(){
+	$(".toggle").click(function(){
+		$(".menu3").slideToggle()
+		
+		})
+	
+	
+	})</script>
+</head>
+<body>
+<!--body code start-->
+<!--header start-->
+<!--container-fluid-->
+<div class="container-fluid header">
+<!--container-->
+<div class="container">
+<!--logo-->
+<div class="col-3 slideL">
+<a href="index.html"><img src="images/logo.jpg" class="img-fluid" alt="logo" ></a></div>
+<!--normal menu-->
+<div class="col-7 menu slideR"><a href="index.html">HOME</a> 
+<a href="about_us.html">ABOUT US</a>
+<a href="admission.html">ADMISSIONS</a>
+<a href="syllabus.html">SYLLABUS</a>
+<a href="contact_us.html">CONTACT US</a>
+</div>
+<div class="toggle"><img src="images/toggle.jpg" alt="toggle" ></div>
+<div class="cl"></div>
+
+<div class="col-6 menu3">
+	<a href="index.html">HOME</a> 
+<a href="about_us.html">ABOUT US</a>
+<a href="admission.html">ADMISSIONS</a>
+<a href="syllabus.html">SYLLABUS</a>
+<a href="contact_us.html">CONTACT US</a></div>
+	<div class="cl"></div></div></div>
+<!--admission description start-->
+<div class="container addes">
+<div class="col-6 slideL"><img src="images/adi.jpg" class="img-fluid" alt="aim" ></div>
+<div class="col-6 slideR">
+<p>Mathlete Institute provides admission for students who completed their under graduation in the field of Mathematics or studied mathematics as their complementary subject atleast for two years in their under graduation.<br>
+For first time user they have to register with their details. Students have to enter the basic details.Once you are registered you can login. Once you are selected we will contact you with your provided details. Students must be careful while entering the details into the form. Genuine, valid data should be entered. Any wrong information entered will lead to cancellation of your admission.</p></div>
+	<div class="cl"></div></div>
+<!--login form-->
+<div class="container forms bold slideB">
+	<h1>LOGIN</h1>
+	<form action="#" name="form1" method="post">
+		<p>Username:<input type="text" name="username" required placeholder="usename" class="input" /><br><br>
+		Password:<input type="password" name="password" required placeholder="password" class="input" /><br><br>
+		<input type="submit" name="Submit" value="Submit" class="submit" /><input type="reset" name="Reset" value="Reset" class="reset" /></p></form>
+	<p>Not Registered <a href="#">Click Here</a></p>
+	<div class="cl"></div>
+	<!--registration form-->
+	<div class="registration">
+		<h1>REGISTRATION</h1>
+		<form action="#" name="form1" method="post">
+		<p>Applicants name:<input type="text" name="username" required placeholder="type name here" class="input" /><br><br>
+	       Date of Birth:<input type="date" name="date" required  class="date" /><br><br>
+	       Permanent Address:<textarea name="addrerss" rows="5" cols="30" required placeholder="address" class="addre"></textarea><br><br>
+          contact number:<input type="text" name="username" required placeholder="type active number" class="input1" onClick="function ga();" /><br><br>
+		 active Email:<input type="email" name="email" required placeholder="E-mail" class="date" /><br><br>
+		<input type="submit" name="Submit" value="Submit" class="submit" /><input type="reset" name="Reset" value="Reset" class="reset" /><br> <br></p></form>
+		<p>Already registered <a href="#"> login</a></p>
+		</div></div>
+<!--footer start-->
+<div class="container-fluid footer">
+<div class="container foot"	>
+<!--web icons-->
+<div class="col-4 webicon slideR">
+<a href="#"><img src="images/f.jpg"  alt="facebook"></a>
+<a href="#"><img src="images/in.jpg" alt="email"></a> 
+<div class="cl"></div></div>
+<!--logo-->
+<div class="col-3 slideL"><a href="index.html"><img src="images/logo.jpg" class="img-fluid" alt="footlogo"></a></div>
+<!--menu2 down-->
+<div class="col-5 menu2 slideT"><a href="index.html">HOME</a><br> 
+<a href="about_us.html">ABOUT US</a><br>
+<a href="admission.html">ADMISSIONS</a><br>
+<a href="syllabus.html">SYLLABUS</a><br>
+<a href="contact_us.html">CONTACT US</a></div><br>
+<div class="cl"></div></div>
+<!--copy right-->
+<div class="container-fluid copy"><hr color="#163703"><p>Mathlete_institute&copy;.All rights reserved</p></div></div>
+</body>
+</html>

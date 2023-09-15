@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+/*general css*/
+* {
+	margin: 0;padding: 0;box-sizing: border-box;font-family:Arial, Helvetica, sans-serif;font-size:14px;
+}
+
+	   .col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+	   .col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+	   .col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+	   .col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+	   .col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+	   .col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+	   
+	   .container-fluid{
+		   width: 100%; 
+		   clear: both;
+		   
+          }
+	   
+	   .container{max-width: 1300px;margin: 0 auto;}
+
+	    .cl{clear:both;}
+
+
+	   .img-fluid{width: 100%; height: auto;}
+	   
+	   
+	   a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none!important;
+}
+/*for body*/
+.header{background-color:#795C08;padding:15px 0 10px 0;}
+/*top menu*/
+.menu{float:right;text-align:right;font-size:60px;font-weight:bold;}
+/*common hyper links*/
+a{color:#163703;}
+a:hover{color:#EB0C2F;}
+/*admission running*/
+.mar{background-color:#9F7F23;padding:10px 0 8px 0;margin:20px 0 20px 0;}
+.mar h1{font-size:15px;color:#206C11;}
+.mar a{font-size:15px;color:#56780C;}
+.mar a:hover{color:#AC0104;}
+/*normal h1*/
+h1{font-size:30px;color:#225A03;text-align:center;}
+/*footer contents*/
+.footer {background-color:#795C08;}
+/*facebook and insta icons*/
+.webicon{float:left;padding-left:10px;}
+/*footer menu*/
+.menu2 {font-size:20px;font-weight:bold;text-align:center;}
+/*for copyright*/
+.copy {padding-bottom: 30px;text-align: center;color:#162712;}
+.copy p{padding-top:20px;font-size:18px;}
+/*banner sliding main class*/
+.image-slide{position: relative;max-width: 100%;margin-bottom: 20px;}
+/*class for each image*/
+.mySlides {display: none;}
+.mySlides img {vertical-align: middle;}
+/*round navigation buttons*/
+.nav-btn{height: 20px;
+	width: 20px;
+	border-radius: 45%;
+	background-color: aliceblue;
+	cursor: pointer;
+	position: absolute;
+    left: 650px;
+    top: 500px;
+	margin: 0 2px;
+    display: inline-block;
+   transition: background-color 0.6s ease;}
+.active, .nav-btn:hover {
+  background-color: #717171;
+}
+.nav-btn1{height: 20px;
+	width: 20px;
+	border-radius: 45%;
+	background-color: aliceblue;
+	cursor: pointer;
+	position: absolute;
+    left: 750px;
+    top: 500px;
+	margin: 0 2px;
+    display: inline-block;
+   transition: background-color 0.6s ease;}
+.active, .nav-btn1:hover {
+  background-color: #717171;
+}
+.nav-btn2{height: 20px;
+	width: 20px;
+	border-radius: 45%;
+	background-color: aliceblue;
+	cursor: pointer;
+	position: absolute;
+    left: 850px;
+    top: 500px;margin: 0 2px;
+    display: inline-block;
+   transition: background-color 0.6s ease;}
+.active, .nav-btn2:hover {
+  background-color: #717171;
+}
+/*numbers for image*/
+.numbertext {color:#EB0408;font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 500px;
+  font-weight: bold;}
+/*text above image*/
+.text {
+  color:#FFFFFF;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+	font-weight: bold;
+}
+/*button on image*/
+.box{background-color:#556007;color:#EAD7D7;border-radius:10px;box-shadow:10px 10px 10px #000000;padding-top:15px;width:200px;height:50px;line-height:inherit; text-align: center;align-content: center;font-size: 20px;font-weight: bold;justify-content: center;position: absolute;
+  top: 200px;left:650px;}
+.box a{color:#765707;}
+.box a:hover{color:#940002;cursor: pointer;}
+.box2{background-color:#490A5E;color:#EAD7D7;border-radius:10px;box-shadow:10px 10px 10px #000000;padding-top:15px;width:200px;height:50px;line-height:inherit; text-align: center;align-content: center;font-size: 20px;font-weight: bold;justify-content: center;position: absolute;
+  top: 200px;left:650px;}
+.box2 a{color:#765707;}
+.box2 a:hover{color:#940002;cursor: pointer;}
+.box3{background-color:#66310A;color:#EAD7D7;border-radius:10px;box-shadow:10px 10px 10px #000000;padding-top:15px;width:200px;height:50px;line-height:inherit; text-align: center;align-content: center;font-size: 20px;font-weight: bold;justify-content: center;position: absolute;
+  top: 200px;left:650px;}
+.box3 a{color:#765707;}
+.box3 a:hover{color:#940002;cursor: pointer;}
+/*previous and next navigation buttons*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 300px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:#FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/*quotes*/
+.quote {background-color:#A87306;box-shadow:10px 10px 10px 10px #312D2D;color:#163703;margin-bottom: 20px;font-style: italic; padding:35px 10px 35px 10px;border-radius:10px;font-size:100px;font-weight:bold;text-align: center;}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*fade animation of images*/
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*media query*/
+
+/*for toggle*/
+@media (min-width:926px){
+	.toggle{display:none;}
+}
+@media (max-width:925px){
+	.menu{display:none;}
+	.toggle {display:block;}
+	}
+
+
+/*for animation of contents*/
+
+@keyframes slideInRight {
+			from {
+				transform: translateX(150px);}
+			to{transform : translateX(0);}
+		}
+.slideR {
+			animation-name: slideInRight;
+			animation-timing-function: ease-in;
+			animation-duration: 0.5s;
+		}
+@keyframes slideInLeft {
+			from {
+				transform: translateX(-150px);}
+			to{transform : translateX(0);}
+		}
+.slideL {
+			animation-name: slideInLeft;
+			animation-timing-function: ease-in;
+			animation-duration: 0.5s;
+		}
+@keyframes slideInBottom {
+			from {
+				transform: translateY(150px);}
+			to{transform : translateY(0);}
+		}
+.slideB {
+			animation-name: slideInBottom;
+			animation-timing-function: ease-in;
+			animation-duration: 0.5s;
+		}
+@keyframes slideInTop {
+			from {
+				transform: translateY(-150px);}
+			to{transform : translateY(0);}
+		}
+.slideT {
+			animation-name: slideInTop;
+			animation-timing-function: ease-in;
+			animation-duration: 0.5s;
+		}
+/*for toggle menu*/
+.toggle {width: 49px; height:39px; float:right; cursor:pointer;padding-top: 15px;margin-right: 15px;}
+.menu3{display:none;float:none;margin:auto;font-weight:bold;}
+.menu3 a{color:#291901;text-align:center;line-height:40px;display:block;}
+.menu3 a:hover{background-color:#C60407;}
+/*media queries for slider banner text*/
+@media (max-width:1150px){.text{font-size:36px;}}
+@media(max-width:1050px){.text{font-size:32px;top:70px;}}
+@media(max-width:900px){.text{font-size:28px;top:60px;}}
+@media(max-width:760px){.text{font-size:24px;top:50px;}}
+@media(max-width:650px){.text{font-size:20px;top:40px;}}
+@media(max-width:550px){.text{font-size:16px;top:30px;}}
+@media(max-width:450px){.text{font-size:12px;top:20px;}}
+@media(max-width:350px){.text{font-size:10px;top:15px;}}
+/*media for prev and next*/
+@media (max-width:1400px){.prev,.next{top:250px;}}
+@media (max-width:1100px){.prev,.next{top:200px;}}
+@media (max-width:860px){.prev,.next{top:150px;}}
+@media (max-width:620px){.prev,.next{top:120px;}}
+@media (max-width:510px){.prev,.next{top:100px;}}
+@media (max-width:350px){.prev,.next{top:60px;}}
+/*buttons*/
+@media  (max-width:1440px){.box,.box2,.box3{left:630px;}}
+@media  (max-width:1400px){.box,.box2,.box3{left:610px;}}
+@media  (max-width:1340px){.box,.box2,.box3{left:590px;}}
+@media  (max-width:1280px){.box,.box2,.box3{left:560px;}}
+@media  (max-width:1230px){.box,.box2,.box3{left:530px;}}
+@media  (max-width:1180px){.box,.box2,.box3{left:500px;}}
+@media  (max-width:1110px){.box,.box2,.box3{left:460px;top:180px;}}
+@media  (max-width:1045px){.box,.box2,.box3{left:430px;top:170px;width:180px;}}
+@media  (max-width:980px){.box,.box2,.box3{left:400px;top:160px;width:170px;}}
+@media  (max-width:930px){.box,.box2,.box3{left:360px;top:150px;}}
+@media  (max-width:870px){.box,.box2,.box3{left:330px;top:140px;}}
+@media  (max-width:800px){.box,.box2,.box3{left:300px;top:130px;width:160px;height:40px;padding-top:10px;font-size:18px;}}
+@media  (max-width:700px){.box,.box2,.box3{left:260px;}}
+@media  (max-width:650px){.box,.box2,.box3{left:230px;top:100px;width:150px;height:30px;padding-top:8px;font-size:15px;}}
+@media  (max-width:585px){.box,.box2,.box3{left:200px;top:90px;}}
+@media  (max-width:550px){.box,.box2,.box3{left:210px;top:80px;width:110px;height:30px;padding-top:7px;font-size:13px;}}
+@media  (max-width:490px){.box,.box2,.box3{left:190px;}}
+@media  (max-width:430px){.box,.box2,.box3{left:170px;top:70px;width:80px;height:20px;padding-top:5px;font-size:10px;}}
+/*number text*/
+@media (max-width:1360px){.numbertext{top:460px;}}
+@media (max-width:1270px){.numbertext{top:420px;}}
+@media (max-width:1160px){.numbertext{top:380px;}}
+@media (max-width:1050px){.numbertext{top:340px;}}
+@media (max-width:940px){.numbertext{top:300px;}}
+@media (max-width:850px){.numbertext{top:260px;}}
+@media (max-width:750px){.numbertext{top:220px;}}
+@media (max-width:650px){.numbertext{top:180px;font-size:20px;}}
+@media (max-width:530px){.numbertext{top:160px;}}
+@media (max-width:470px){.numbertext{top:150px;font-size:16px;}}
+@media (max-width:430px){.numbertext{top:140px;font-size:13px;}}
+/*nav btns*/
+@media  (max-width:1440px){.nav-btn{left:620px;}.nav-btn1{left:720px;}.nav-btn2{left:820px;}}
+@media  (max-width:1400px){.nav-btn{left:600px;top:460px;}.nav-btn1{left:700px;top:460px;}.nav-btn2{left:800px;top:460px;}}
+@media  (max-width:1340px){.nav-btn{left:570px;}.nav-btn1{left:670px;}.nav-btn2{left:770px;}}
+@media  (max-width:1280px){.nav-btn{left:550px;}.nav-btn1{left:650px;}.nav-btn2{left:750px;}}
+@media  (max-width:1230px){.nav-btn{left:520px;}.nav-btn1{left:620px;}.nav-btn2{left:720px;}}
+@media  (max-width:1180px){.nav-btn{left:500px;top:420px;width:18px;height:18px;}.nav-btn1{left:600px;top:420px;width:18px;height:18px;}.nav-btn2{left:700px;top:420px;width:18px;height:18px;}}
+@media  (max-width:1110px){.nav-btn{left:470px;}.nav-btn1{left:570px;}.nav-btn2{left:670px;}}
+@media  (max-width:1060px){.nav-btn{left:460px;top:400px;}.nav-btn1{left:560px;top:400px;}.nav-btn2{left:660px;top:400px;}}
+@media  (max-width:1045px){.nav-btn{left:450px;top:370px;}.nav-btn1{left:550px;top:370px;}.nav-btn2{left:650px;top:370px;}}
+@media  (max-width:980px){.nav-btn{left:420px;top:350px;}.nav-btn1{left:520px;top:350px;}.nav-btn2{left:620px;top:350px;}}
+@media  (max-width:930px){.nav-btn{left:370px;top:320px;}.nav-btn1{left:450px;top:320px;}.nav-btn2{left:530px;top:320px;}}
+@media  (max-width:870px){.nav-btn{left:330px;top:300px;width:16px;height:16px;}.nav-btn1{left:410px;top:300px;width:16px;height:16px;}.nav-btn2{left:490px;top:300px;width:16px;height:16px;}}
+@media  (max-width:800px){.nav-btn{left:300px;top:280px;width:14px;height:14px;}.nav-btn1{left:380px;top:280px;width:14px;height:14px;}.nav-btn2{left:460px;top:280px;width:14px;height:14px;}}
+@media (max-width:730px){.nav-btn{top:260px;}.nav-btn1{top:260px;}.nav-btn2{top:260px;}}
+@media  (max-width:700px){.nav-btn{left:270px;}.nav-btn1{left:350px;}.nav-btn2{left:430px;}}
+@media (max-width:670px){.nav-btn{top:250px;}.nav-btn1{top:250px;}.nav-btn2{top:250px;}}
+@media  (max-width:650px){.nav-btn{left:230px;top:220px;}.nav-btn1{left:310px;top:220px;}.nav-btn2{left:390px;top:220px;}}
+@media  (max-width:585px){.nav-btn{left:200px;top:200px;}.nav-btn1{left:260px;top:200px;;}.nav-btn2{left:320px;top:200px;}}
+@media  (max-width:550px){.nav-btn{width:12px;height:12px;}.nav-btn1{width:12px;height:12px;}.nav-btn2{width:12px;height:12px;}}
+@media  (max-width:525px){.nav-btn{top:180px;}.nav-btn1{top:180px;}.nav-btn2{top:180px;}}
+@media  (max-width:490px){.nav-btn{width:10px;height:10px;}.nav-btn1{width:10px;height:10px;}.nav-btn2{width:10px;height:10px;}}
+@media  (max-width:465px){.nav-btn{top:170px;}.nav-btn1{top:170px;}.nav-btn2{top:170px;}}
+@media  (max-width:430px){.nav-btn{left:180px;top:160px;}.nav-btn1{left:230px;top:160px;}.nav-btn2{left:280px;top:160px;}}
+@media  (max-width:420px){.nav-btn{left:160px;top:150px;width:8px;height:8px;}.nav-btn1{left:210px;top:150px;width:8px;height:8px;}.nav-btn2{left:260px;top:150px;width:8px;height:8px;}}
